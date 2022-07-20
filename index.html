@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head> 
+ <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="main">
+<h1 id="title">freeCodeCamp Survey Form</h1>
+
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+
+
+<form id="survey-form">
+
+<div class=form-group>
+      <label id="name-label">Name</label><br>
+ <input type="text" id="name" class="form-control"    placeholder="Enter your name" required>
+</div>
+
+<br><br>
+
+<div class=form-group>
+ <label id="email-label">Enter your email:</label><br>
+<input type="email" id="email" class="form-control" placeholder="Enter your email"  required>
+</div>
+
+<br><br>
+
+<div class=form-group>
+<label id="number-label">Age</label><br>
+<input type="number" id="number" name="age"
+       min="13" max="100" class="form-control" placeholder="Age">
+</div>
+
+<br><br>
+
+<div class=form-group>
+ <label for="role-label">Which option best describes your current role?</label><br>
+<select id="role" class="form-control">
+    <option value="">Select a current role</option>
+    <option value="student">Student</option>
+    <option value="ftjob">Full time job</option>
+    <option value="ftlearner">Full time learner</option>
+    <option value="prefernts">Prefer not to say</option>
+    <option value="other">Other</option>
+</select>
+</div>
+
+<br><br>
+<div class=form-group>
+    <label>Would you recommend freeCodeCamp to a friend?</label><br>
+      <input type="radio" id="huey" name="recco" value="huey"
+             checked>
+      <label for="huey">Definitely</label><br>
+   
+      <input type="radio" id="dewey" name="recco" value="dewey">
+      <label for="dewey">May be</label><br>
+   
+      <input type="radio" id="louie" name="recco" value="louie">
+      <label for="louie">Not sure</label><br>    
+</div>
+   
+<br><br>
+
+<div class=form-group>
+<label for="feature-select">What is your favorite feature of freeCodeCamp?</label><br>
+<select name="feature" id="feature-select" class="form-control">
+    <option value="">Select an option</option>
+    <option value="challenges">Challenges</option>
+    <option value="projects">Projects</option>
+    <option value="community">Community</option>
+    <option value="opensource">Open source</option>  
+</select>      
+</div>
+
+<br><br>
+
+<div class=form-group>
+<label>What would you like to see improved? (Check all that apply)</label><br>
+
+<input type="checkbox" id="scales" name="scales" value="feprojects">
+      <label for="scales">Front-end Projects</label><br>
+<input type="checkbox" id="scales" name="scales" value="beprojects">
+      <label for="scales">Back-end Projects</label><br>
+<input type="checkbox" id="scales" name="scales" value="datavis">
+      <label for="scales">Data Visualization</label><br>
+<input type="checkbox" id="scales" name="scales" value="challgs">
+      <label for="scales">Challenges</label><br>
+<input type="checkbox" id="scales" name="scales" value="oscom">
+      <label for="scales">Open Source Community</label><br>
+<input type="checkbox" id="scales" name="scales" value="githubhr">
+      <label for="scales">Gitter help rooms</label><br>
+<input type="checkbox" id="scales" name="scales" value="vids">
+      <label for="scales">Videos</label><br>
+<input type="checkbox" id="scales" name="scales" value="ctymups">
+      <label for="scales">City Meetups</label><br>
+<input type="checkbox" id="scales" name="scales" value="wiki">
+      <label for="scales">Wiki</label><br>
+<input type="checkbox" id="scales" name="scales" value="forum">
+             
+      <label for="scales">Forum</label><br>
+      
+<input type="checkbox" id="scales" name="scales" value="adddscrs">
+      <label for="scales">Additional Courses</label>  <br>    
+</div>
+
+<br><br>
+
+<div class=form-group>
+<label for="story">Any comments or suggestions?</label><br>
+<textarea id="story" name="story"
+          rows="5" cols="33" class="input-textarea" >
+Enter your comment here..
+</textarea>       
+</div>
+
+<br><br>
+
+<div class=form-group>
+<input type="submit" id="submit" value="Submit" class="submit-btn">      
+</div>
+
+</form>
+</div>
+</body>
+</html>
